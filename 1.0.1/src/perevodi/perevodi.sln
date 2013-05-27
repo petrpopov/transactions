@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "perevodi", "perevodi.vcproj", "{F380385B-8E29-3672-AD68-F4F917747ADF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F380385B-8E29-3672-AD68-F4F917747ADF}.Debug.ActiveCfg = Debug|Win32
+		{F380385B-8E29-3672-AD68-F4F917747ADF}.Debug.Build.0 = Debug|Win32
+		{F380385B-8E29-3672-AD68-F4F917747ADF}.Release.ActiveCfg = Release|Win32
+		{F380385B-8E29-3672-AD68-F4F917747ADF}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

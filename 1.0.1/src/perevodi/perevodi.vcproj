@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="perevodi"
+	ProjectGUID="{F380385B-8E29-3672-AD68-F4F917747ADF}">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				Optimization="1"
+				AdditionalIncludeDirectories=".,$(QTDIR)\include,E:\perevodi,F:\Qt\3.3.3\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_DLL,QT_THREAD_SUPPORT,NDEBUG"
+				GeneratePreprocessedFile="0"
+				ExceptionHandling="FALSE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				AssemblerListingLocation=".\"
+				ObjectFile=".\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="qt-mt333.lib qtmain.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib winspool.lib delayimp.lib"
+				OutputFile=".\perevodi.exe"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="$(QTDIR)\lib"
+				DelayLoadDLLs="comdlg32.dll,oleaut32.dll,winmm.dll,wsock32.dll,winspool.dll"
+				GenerateDebugInformation="FALSE"
+				ProgramDatabaseFile=""
+				SubSystem="2"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="Debug\"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-Zm200 -w34100 -w34189"
+				Optimization="1"
+				AdditionalIncludeDirectories=".,$(QTDIR)\include,E:\perevodi,F:\Qt\3.3.3\mkspecs\win32-msvc.net"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_DLL,QT_THREAD_SUPPORT"
+				GeneratePreprocessedFile="0"
+				MinimalRebuild="TRUE"
+				ExceptionHandling="FALSE"
+				RuntimeLibrary="2"
+				BufferSecurityCheck="FALSE"
+				AssemblerListingLocation="Debug\"
+				ObjectFile="Debug\"
+				ProgramDataBaseFileName=".\"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				IgnoreImportLibrary="TRUE"
+				AdditionalDependencies="qt-mt333.lib qtmain.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib winmm.lib wsock32.lib winspool.lib delayimp.lib mainicon.res"
+				OutputFile="Debug\\perevodi.exe"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="$(QTDIR)\lib"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=""
+				SubSystem="2"/>
+			<Tool
+				Name="VCMIDLTool"
+				WarningLevel="0"
+				DefaultCharType="0"
+				EnableErrorChecks="1"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="cell.cpp">
+			</File>
+			<File
+				RelativePath="datedialog.cpp">
+			</File>
+			<File
+				RelativePath="dateinterval.cpp">
+			</File>
+			<File
+				RelativePath="main.cpp">
+			</File>
+			<File
+				RelativePath="mainform.cpp">
+			</File>
+			<File
+				RelativePath="spreadsheet.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="calc.h">
+			</File>
+			<File
+				RelativePath="cell.h">
+			</File>
+			<File
+				RelativePath="datedialog.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing datedialog.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe datedialog.h -o moc_datedialog.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="moc_datedialog.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing datedialog.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe datedialog.h -o moc_datedialog.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="moc_datedialog.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="dateinterval.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing dateinterval.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe dateinterval.h -o moc_dateinterval.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="moc_dateinterval.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing dateinterval.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe dateinterval.h -o moc_dateinterval.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="moc_dateinterval.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="mainform.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing mainform.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe mainform.h -o moc_mainform.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="moc_mainform.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing mainform.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe mainform.h -o moc_mainform.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="moc_mainform.cpp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="spreadsheet.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing spreadsheet.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe spreadsheet.h -o moc_spreadsheet.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="moc_spreadsheet.cpp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Moc&apos;ing spreadsheet.h..."
+						CommandLine="$(QTDIR)\bin\moc.exe spreadsheet.h -o moc_spreadsheet.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						Outputs="moc_spreadsheet.cpp"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated MOC Files"
+			Filter="cpp;c;cxx;moc">
+			<File
+				RelativePath="moc_datedialog.cpp">
+			</File>
+			<File
+				RelativePath="moc_dateinterval.cpp">
+			</File>
+			<File
+				RelativePath="moc_mainform.cpp">
+			</File>
+			<File
+				RelativePath="moc_spreadsheet.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Translations Files"
+			Filter="ts"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="perevodi_ru.ts">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resources"
+			Filter="cpp;ico;png;jpg;jpeg;gif;xpm;bmp;rc;ts"
+			ParseFiles="FALSE">
+			<File
+				RelativePath="icons/1.jpg">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generate imagecollection"
+						CommandLine="echo icons/editdelete.png icons/fileclose.png icons/filenew.png icons/fileopen.png icons/filesaveas.png icons/filesave.png icons/1.jpg icons/2.jpg icons/3.jpg icons/done.png icons/notdone.png icons/nowdone.png icons/clear.png icons/editcopy.png icons/editcut.png &gt; .imgcol
+echo icons/editpaste.png icons/fileprint.png icons/mainicon.png &gt;&gt; .imgcol
+$(QTDIR)\bin\uic.exe -embed perevodi -f .imgcol -o qmake_image_collection.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;icons/editdelete.png;icons/fileclose.png;icons/filenew.png;icons/fileopen.png;icons/filesaveas.png;icons/filesave.png;icons/1.jpg;icons/2.jpg;icons/3.jpg;icons/done.png;icons/notdone.png;icons/nowdone.png;icons/clear.png;icons/editcopy.png;icons/editcut.png;icons/editpaste.png;icons/fileprint.png;icons/mainicon.png"
+						Outputs="qmake_image_collection.cpp;.imgcol"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generate imagecollection"
+						CommandLine="echo icons/editdelete.png icons/fileclose.png icons/filenew.png icons/fileopen.png icons/filesaveas.png icons/filesave.png icons/1.jpg icons/2.jpg icons/3.jpg icons/done.png icons/notdone.png icons/nowdone.png icons/clear.png icons/editcopy.png icons/editcut.png &gt; .imgcol
+echo icons/editpaste.png icons/fileprint.png icons/mainicon.png &gt;&gt; .imgcol
+$(QTDIR)\bin\uic.exe -embed perevodi -f .imgcol -o qmake_image_collection.cpp
+"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe;icons/editdelete.png;icons/fileclose.png;icons/filenew.png;icons/fileopen.png;icons/filesaveas.png;icons/filesave.png;icons/1.jpg;icons/2.jpg;icons/3.jpg;icons/done.png;icons/notdone.png;icons/nowdone.png;icons/clear.png;icons/editcopy.png;icons/editcut.png;icons/editpaste.png;icons/fileprint.png;icons/mainicon.png"
+						Outputs="qmake_image_collection.cpp;.imgcol"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="icons/2.jpg">
+			</File>
+			<File
+				RelativePath="icons/3.jpg">
+			</File>
+			<File
+				RelativePath="icons/clear.png">
+			</File>
+			<File
+				RelativePath="icons/done.png">
+			</File>
+			<File
+				RelativePath="icons/editcopy.png">
+			</File>
+			<File
+				RelativePath="icons/editcut.png">
+			</File>
+			<File
+				RelativePath="icons/editdelete.png">
+			</File>
+			<File
+				RelativePath="icons/editpaste.png">
+			</File>
+			<File
+				RelativePath="icons/fileclose.png">
+			</File>
+			<File
+				RelativePath="icons/filenew.png">
+			</File>
+			<File
+				RelativePath="icons/fileopen.png">
+			</File>
+			<File
+				RelativePath="icons/fileprint.png">
+			</File>
+			<File
+				RelativePath="icons/filesave.png">
+			</File>
+			<File
+				RelativePath="icons/filesaveas.png">
+			</File>
+			<File
+				RelativePath="icons/mainicon.png">
+			</File>
+			<File
+				RelativePath="icons/notdone.png">
+			</File>
+			<File
+				RelativePath="icons/nowdone.png">
+			</File>
+			<File
+				RelativePath="qmake_image_collection.cpp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
